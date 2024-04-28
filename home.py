@@ -138,7 +138,7 @@ def app () :
 
             ax.set_title("Price/m2 by postal code (in Euro)", fontdict={'fontsize': '100', 'fontweight': '10'},)
 
-            maps_data_final.plot(column="avg_rent",
+            maps_data_final.plot(column="price/m2",
                                 ax=ax,
                                 legend=True,
                                 legend_kwds={'loc': 2},
